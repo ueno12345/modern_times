@@ -3,8 +3,8 @@
 <%= render @nurse %>
 
 <div>
-  <%= link_to "Edit this nurse", edit_nurse_path(@nurse) %> |
-  <%= link_to "Back to nurses", nurses_path %>
+  <%= link_to "編集", edit_nurse_path(@nurse) %> |
+  <%= link_to "一覧へ", nurses_path %>
 
-  <%= button_to "Destroy this nurse", @nurse, method: :delete %>
+  <%= button_to "削除", @nurse, method: :delete %>
 </div>
